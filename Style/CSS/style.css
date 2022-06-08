@@ -1,0 +1,144 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body .container {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+body .container .card {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  min-height: 82vh;
+  width: 35rem;
+  -webkit-box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  padding: 0rem 5rem;
+}
+
+body .container .card .image {
+  min-height: 35vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+body .container .card .image .circle {
+  height: 15rem;
+  width: 15rem;
+  background: -webkit-gradient(linear, left top, right top, from(#e66465), to(#9198e5));
+  background: linear-gradient(to right, #e66465, #9198e5);
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+body .container .card .image img {
+  -webkit-transition: all 0.50s ease-in-out;
+  transition: all 0.50s ease-in-out;
+  width: 20rem;
+  z-index: 2;
+}
+
+body .container .about h1 {
+  -webkit-transition: all 0.50s ease-in-out;
+  transition: all 0.50s ease-in-out;
+  font-size: 5rem;
+}
+
+body .container .about p {
+  -webkit-transition: all 0.50s ease-in-out;
+  transition: all 0.50s ease-in-out;
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  padding-top: 0px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+body .container .about .size {
+  -webkit-transition: all 0.50s ease-in-out;
+  transition: all 0.50s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.2rem 0;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+body .container .about .size input[type=button] {
+  -webkit-transition: all 0.50s ease-in-out;
+  transition: all 0.50s ease-in-out;
+  padding: 0.7rem 2rem;
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+}
+
+body .container .about .size input[type=button].active {
+  color: white;
+  background: #585858;
+}
+
+body .container .about .Purchase {
+  margin-top: 1rem;
+  font-size: 30px;
+  width: 100%;
+  border-radius: 50px;
+  padding: 0.5rem 2rem;
+  background: orangered;
+  color: white;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+body .container .about .Purchase:hover {
+  background: #e23c00;
+  color: whitesmoke;
+}
+
+/*# sourceMappingURL=style.css.map */
